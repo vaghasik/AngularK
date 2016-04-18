@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vaghasik/AngularK/issues"
   },
-  "homepage": "https://github.com/vaghasik/AngularK#readme"
+  "homepage": "https://github.com/vaghasik/AngularK#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
