@@ -1,0 +1,20 @@
+{
+  "name": "kamdhenu",
+  "description": "website for kamdhenu",
+  "main": "no",
+  "authors": [
+    "Kajal Vaghasia"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vaghasik/AngularK",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.4"
+  }
+}
