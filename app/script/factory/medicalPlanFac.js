@@ -1,13 +1,12 @@
-/*'use strict';
+'use strict';
 
-angular.module('myApp.about')
-.factory('medicalPlanFactory', function() {
+aboutApp.factory('medicalPlanFactory', function() {
 	return {
 		genralPlan: function(text){
-			return "We have factory genral plans for", +text+ ".";
+			return "We have factory genral plans for " +text+ ".";
 		},
 		publicPlan: function(text) {
-			return "We have factory public plans for", +text+ ".";
+			return "We have factory public plans for " +text+ ".";
 		}
 	}
-});*/
+});

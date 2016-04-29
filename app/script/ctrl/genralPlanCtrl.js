@@ -1,8 +1,10 @@
-/*'use strict';
+'use strict';
 
-angular.module('myApp.about')
-.controller('genralPlanCtrl', ['$scoe', 'medicalPlanServeice', 'medicalPlanFactory', function($scoe, medicalPlanServeice, medicalPlanFactory) {
-	$scope.generalvistorPlan = medicalPlanServeice.genralPlan('visitor');
-	
-	$scope.generalstudentPlan = medicalPlanFactory.genralPlan('students');
-}]);*/
+aboutApp.controller('genralPlanCtrl', 
+		['$scope', 'medicalPlanSrv', 'medicalPlanFactory', 
+		 function($scope, medicalPlanSrv, medicalPlanFactory) {
+			$scope.test = "Test";
+			$scope.test1 = medicalPlanSrv.testPlan();
+			$scope.generalServicePlan = medicalPlanSrv.genralPlan("visitor");
+			$scope.generalFactoryPlan = medicalPlanFactory.genralPlan("students");
+}]);

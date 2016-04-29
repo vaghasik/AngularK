@@ -1,11 +1,13 @@
-/*'use strict';
+'use strict';
 
-angular.module('myApp.about')
-.service('medicalPlanServeice', function() {
+aboutApp.service('medicalPlanSrv', function() {
+	this.testPlan = function(){
+		 return "We have plans";
+	 };
 	 this.genralPlan = function(text){
-		 return "We have plans for", +text+ ".";
+		 return "We have plans for " + text + ".";
 	 };
-	 this.publicPlan = function(text){
-		 return "We have plans for", +text+ ".";
+	 this.publicPlan = function(texts){
+		 return "We have plans for " + texts + ".";
 	 };
-}); */
+});
